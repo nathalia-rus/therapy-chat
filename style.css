@@ -1,0 +1,167 @@
+            .center {
+                text-align: center;
+            }
+            
+            #content {
+                display: flex;
+                flex-flow: row wrap;
+                align-items: flex-start;
+                font-family: 'Nunito', sans-serif;
+                margin: auto;
+                width: 40%;
+                height: 230px;
+                border: 0.8px solid rgba(180, 176, 176, 0.7);
+                border-radius: 47px;
+                box-shadow: 0px 1.5px 2px 0.5px rgba(0, 0, 0, 0.38) inset;
+                padding: 10px;
+                overflow-x: hidden;
+                overflow-y: scroll;
+                overflow-x: scroll;
+            }
+            
+            .box_user {
+                display: block;
+                flex-flow: row wrap;
+                align-items: flex-start;
+                border: solid #B09A83;
+                background-color: #B09A83;
+                margin-left: 50px;
+                margin-bottom: 5px;
+                padding: 5px 5px;
+                border-radius: 15px;
+                direction: ltr;
+                width: 55%;
+                clear: both;
+            }
+            
+            .box_laptop {
+                margin-left: 200px;
+                display: block;
+                flex-flow: row wrap;
+                align-items: flex-start;
+                border: solid #57534F;
+                background-color: #57534F;
+                margin-bottom: 5px;
+                padding: 5px 5px;
+                border-radius: 15px;
+                direction: ltr;
+                clear: both;
+                width: 55%;
+            }
+            
+            .text_user {
+                font-family: 'Nunito', sans-serif;
+                font-size: 13px;
+                color: white;
+                line-height: 15px;
+                margin-top: 12px;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: left;
+                clear: both;
+                direction: ltr;
+            }
+            
+            .text_laptop {
+                font-family: 'Nunito', sans-serif;
+                font-size: 13px;
+                color: white;
+                line-height: 15px;
+                margin-top: 12px;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: left;
+                clear: both;
+                direction: ltr;
+            }
+            
+            #welcome {
+                color: #000000;
+                font-family: 'Nunito', sans-serif;
+                margin-left: -230px;
+                padding-top: 20px;
+                padding-bottom: 45px;
+                clear: both;
+                background-color: white;
+            }
+            
+            .text_action {
+                margin: auto;
+                margin-top: 40px;
+                margin-left: 419px;
+            }
+            
+            #usertext {
+                padding-top: 10px;
+                box-shadow: 0px 1.5px 2px 0.5px rgb(233, 233, 233) inset;
+                border-radius: 50px;
+                border-color: #F1F1F1
+            }
+            
+            #submittext {
+                margin-top: 30px;
+                width: 123px;
+                color: #7C6F6F;
+                box-shadow: 0px 1px 35px 1.8px rgb(255, 255, 255) inset;
+                border-radius: 25px;
+                background-color: #D1D1D1;
+                border-color: #E4E2E2;
+            }
+            
+             ::-webkit-input-placeholder {
+                padding-left: 15px;
+                color: rgba(0, 0, 0, 0.8);
+                height: 29px;
+            }
+            
+             ::-moz-placeholder {
+                padding-left: 15px;
+                color: rgba(138, 134, 134, 0.45);
+                height: 29px;
+            }
+            /* firefox 19+ */
+            
+             :-ms-input-placeholder {
+                padding-left: 15px;
+                color: #DADADA;
+                height: 29px;
+            }
+            
+            .line {
+                display: block;
+                text-align: center;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+            
+            .line>span {
+                position: relative;
+                display: inline-block;
+            }
+            
+            .line>span:before,
+            .line>span:after {
+                content: "";
+                position: absolute;
+                top: 50%;
+                height: 5px;
+                width: 900px;
+                background: #000000;
+            }
+            
+            .line>span:before {
+                right: 100%;
+                margin-right: 15px;
+            }
+            
+            .line>span:after {
+                left: 100%;
+                margin-left: 15px;
+            }
+            
+            hr {
+                background: #000000;
+                position: absolute;
+                height: 5px;
+                width: 2000px;
+            }
