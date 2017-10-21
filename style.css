@@ -23,10 +23,10 @@
                 display: block;
                 flex-flow: row wrap;
                 align-items: flex-start;
-                border: solid #B09A83;
-                background-color: #B09A83;
+                border: solid rgb(166, 130, 168);
+                background-color: rgb(166, 130, 168);
                 margin-left: 50px;
-                margin-bottom: 5px;
+                margin-bottom: 15px;
                 padding: 5px 5px;
                 border-radius: 15px;
                 direction: ltr;
@@ -35,12 +35,12 @@
             }
             
             .box_laptop {
-                margin-left: 200px;
+                margin-left: 230px;
                 display: block;
                 flex-flow: row wrap;
                 align-items: flex-start;
-                border: solid #57534F;
-                background-color: #57534F;
+                border: solid #A09DA3;
+                background-color: #A09DA3;
                 margin-bottom: 5px;
                 padding: 5px 5px;
                 border-radius: 15px;
@@ -76,8 +76,8 @@
             }
             
             #welcome {
-                color: #000000;
-                font-family: 'Nunito', sans-serif;
+                color: rgb(77, 0, 122);
+                font-family: 'Lato', sans-serif;
                 margin-left: -230px;
                 padding-top: 20px;
                 padding-bottom: 45px;
@@ -110,7 +110,7 @@
             
              ::-webkit-input-placeholder {
                 padding-left: 15px;
-                color: rgba(0, 0, 0, 0.8);
+                color: rgba(80, 82, 87, 0.6);
                 height: 29px;
             }
             
@@ -119,7 +119,6 @@
                 color: rgba(138, 134, 134, 0.45);
                 height: 29px;
             }
-            /* firefox 19+ */
             
              :-ms-input-placeholder {
                 padding-left: 15px;
@@ -146,7 +145,7 @@
                 top: 50%;
                 height: 5px;
                 width: 900px;
-                background: #000000;
+                background: rgba(79, 0, 122, 0.6);
             }
             
             .line>span:before {
@@ -160,8 +159,10 @@
             }
             
             hr {
-                background: #000000;
                 position: absolute;
+                left: 0;
+                right: 0;
+                width: 100%;
                 height: 5px;
-                width: 2000px;
+                background: rgba(79, 0, 122, 0.6);
             }

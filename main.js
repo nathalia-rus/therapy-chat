@@ -41,24 +41,3 @@ $(document).ready(function() {
     });
 
 });
-
-
-/* function messageSecond() {
-        var hello = $(".text_laptop").html("<span class = 'box_laptop' 'text_laptop'>" + " hello" + "</span>");
-        ok.append(hello);
-    }
-
-    messageSecond();
-});
-
-*/
-
-// then, 5 secs after OR if "?", laptop generates a message
-
-/*
-var hello = "hello!";
-laptopMessage = $(".text_laptop").html(hello);
-*/
-
-
-// var botmessage = ["what is on your mind today?", "Tell me about something you did that was interesting yesterday.", "I am not sure what to say, but I am glad you are here.", "I can't answer your questions but I am here to listen: go on."];
