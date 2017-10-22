@@ -3,9 +3,6 @@
             }
             
             #content {
-                display: flex;
-                flex-flow: row wrap;
-                align-items: flex-start;
                 font-family: 'Nunito', sans-serif;
                 margin: auto;
                 width: 40%;
@@ -20,13 +17,17 @@
             }
             
             .box_user {
-                display: block;
+                position: relative;
+                margin: auto;
+                display: flex;
                 flex-flow: row wrap;
+                align-items: flex-start;
                 align-items: flex-start;
                 border: solid rgb(166, 130, 168);
                 background-color: rgb(166, 130, 168);
-                margin-left: 50px;
-                margin-bottom: 15px;
+                margin-left: 30px;
+                margin-top: 10px;
+                margin-bottom: 10px;
                 padding: 5px 5px;
                 border-radius: 15px;
                 direction: ltr;
@@ -35,13 +36,15 @@
             }
             
             .box_laptop {
-                margin-left: 230px;
-                display: block;
+                position: relative;
+                margin-left: 30%;
+                display: flex;
                 flex-flow: row wrap;
                 align-items: flex-start;
                 border: solid #A09DA3;
                 background-color: #A09DA3;
-                margin-bottom: 5px;
+                margin-bottom: 10px;
+                margin-top: 10px;
                 padding: 5px 5px;
                 border-radius: 15px;
                 direction: ltr;
@@ -63,6 +66,7 @@
             }
             
             .text_laptop {
+                margin: auto;
                 font-family: 'Nunito', sans-serif;
                 font-size: 13px;
                 color: white;
@@ -86,44 +90,44 @@
             }
             
             .text_action {
-                margin: auto;
-                margin-top: 40px;
-                margin-left: 419px;
+                position: relative;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: flex-start;
+                margin-left: 30%;
             }
             
             #usertext {
+                display: flex;
+                flex-flow: row wrap;
+                align-items: flex-start;
+                width: 200px;
+                margin-top: 40px;
                 padding-top: 10px;
                 box-shadow: 0px 1.5px 2px 0.5px rgb(233, 233, 233) inset;
                 border-radius: 50px;
                 border-color: #F1F1F1
             }
             
+             ::-webkit-input-placeholder {
+                /* ( = Chrome/Opera/Safari ) */
+                color: rgba(133, 133, 133, 0.71);
+                padding-left: 15px;
+            }
+            
             #submittext {
-                margin-top: 30px;
-                width: 123px;
-                color: #7C6F6F;
+                margin-left: 0%;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: flex-start;
+                margin-top: 20px;
+                width: 100px;
+                color: rgba(124, 111, 111, 0.7);
+                padding-left: 15px;
                 box-shadow: 0px 1px 35px 1.8px rgb(255, 255, 255) inset;
                 border-radius: 25px;
                 background-color: #D1D1D1;
                 border-color: #E4E2E2;
-            }
-            
-             ::-webkit-input-placeholder {
-                padding-left: 15px;
-                color: rgba(80, 82, 87, 0.6);
-                height: 29px;
-            }
-            
-             ::-moz-placeholder {
-                padding-left: 15px;
-                color: rgba(138, 134, 134, 0.45);
-                height: 29px;
-            }
-            
-             :-ms-input-placeholder {
-                padding-left: 15px;
-                color: #DADADA;
-                height: 29px;
             }
             
             .line {
